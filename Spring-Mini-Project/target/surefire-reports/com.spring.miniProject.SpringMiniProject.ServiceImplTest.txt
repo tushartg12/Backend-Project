@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: com.spring.miniProject.SpringMiniProject.ServiceImplTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.002 s <<< FAILURE! - in com.spring.miniProject.SpringMiniProject.ServiceImplTest
+Test1  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "com.spring.miniProject.SpringMiniProject.service.Service.saveProduct(com.spring.miniProject.SpringMiniProject.model.Product)" because "this.serviceTest" is null
+	at com.spring.miniProject.SpringMiniProject.ServiceImplTest.Test1(ServiceImplTest.java:24)
+
+Test2  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "com.spring.miniProject.SpringMiniProject.service.Service.getAllProducts()" because "this.serviceTest" is null
+	at com.spring.miniProject.SpringMiniProject.ServiceImplTest.Test2(ServiceImplTest.java:34)
+

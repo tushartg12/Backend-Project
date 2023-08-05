@@ -6,11 +6,6 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-      </profile>
-      <profile name="Annotation profile for Spring-Mini-Project" enabled="true">
-        <sourceOutputDir name="../../Spring-Mini-Project/Spring-Mini-Project/target/generated-sources/annotations" />
-        <sourceTestOutputDir name="../../Spring-Mini-Project/Spring-Mini-Project/target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
         <module name="Spring-Mini-Project" />
       </profile>
     </annotationProcessing>
